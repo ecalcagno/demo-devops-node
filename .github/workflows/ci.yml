@@ -1,7 +1,7 @@
 name: Node CI
 on: 
   push:
-  branches:
+    branches:
       - main
       - github-actions
   pull_request:
@@ -21,4 +21,4 @@ jobs:
       - name: Instalar dependencias
         run: npm ci
       - name: Ejecutar tests
-        run: npm test
+        run: npm test 
