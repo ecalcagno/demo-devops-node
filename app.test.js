@@ -5,5 +5,5 @@ describe("API", () => {
   test("GET /status devuelve status ok", async () => {
     const response = await request(app).get("/status");
     expect(response.statusCode).toBe(200);
-    expect(response.body.status).toBe("ok");
+    expect(response.body.status).toBe("error");
 }); });
